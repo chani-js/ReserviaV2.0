@@ -1,0 +1,276 @@
+body{
+	width: 100%;
+	font-family: Raleway;
+	display: block;
+	
+	
+	}
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+	a{
+		color: #0065FC;
+		text-decoration: none;
+	}
+	h2{
+		margin: 0;
+	}
+	nav{
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.navlink{
+		padding: 20px;
+		font-size: 12;
+		text-align: center;
+		
+	
+	}
+	.acc:hover{
+		border-top: 2px solid #0065FC;
+	}
+	.act:hover{
+		border-top: 2px solid #0065FC;
+	}
+	input{
+		padding: 5px;
+		border: none;
+		border-top: 1px solid;
+		width: 45%;
+	}
+	.search-bar{
+		width: 25%;
+		height: 60px;
+	}
+	.fa-map{
+		background-color: #F2F2F2;
+		padding: 6px;
+		border-radius: 10px; 
+	}
+	
+	.btn{
+		background-color:#0065FC ;
+		color: white;
+		padding: 5px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		width: auto;
+	}
+	.grey{
+		color: #F2F2F2 !important;
+	}
+	.bold{
+		font-weight: bold;
+	}
+	
+	.container{
+		width: 90%;
+		margin: auto;
+	}
+	.logo{
+		display: inline-block;
+	}
+	.logo img{
+		width: 25%;
+	
+	}
+	.cliquable{
+		display: inline-block;	
+		margin-top: 20px;
+	}
+	
+	.display-in{
+		display: inline-block;
+		color: #B9B9B9;
+	}
+	.p-info{
+		font-style: italic;
+	}
+	
+	#slogan{
+		font-weight: bold;
+		font-size: 2.4em;
+	}
+	.color-p{
+		color: #B9B9B9;
+	}
+	#btn{
+		width: auto;
+		height: auto;
+	}
+	.filters{
+		display: inline-block;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	/* modifications des boutons filtres*/
+	.filters li{
+		border: 1px solid #F2F2F2;
+		border-radius: 20px;
+		margin-left: 30px;
+		display: inline-block;
+		width: 200px;
+		font-weight: bold;
+	}
+	.filters li:hover{
+		transform: scale(1.2);
+	}
+	
+	/* modifications des icones pour les filtres */
+	.filters li i{
+		border: 1px solid transparent;
+		border-radius: 20px;
+		padding: 10px;
+		background-color: #DEEBFF;
+		color:  #0000FF;
+	}
+	
+	.fa-info{
+		border: 1px solid #FFFFFF;
+		padding: 5px;
+		color: #0000FF;
+		border-radius: 100%;
+	}
+	.descr_hover:hover{
+		transform: scale(1.1);
+	}
+	
+	.col_container{
+		width: 100%;
+		display: flex;
+		align-items: flex-start;
+		margin-top: 30px;
+		
+	}
+	
+	.col_1{
+		width: 60%;
+		margin-right: 40px;
+		background-color: #F2F2F2;
+		border-radius: 25px;
+		padding: 20px;
+	}
+	.col_1 h2{
+		margin-bottom: 10px;
+	}
+	.card_container_1{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.descr_card{
+		padding: 4px;
+		background-color: white;
+		border-radius: 10px;
+		width: 30%;
+		margin-bottom: 20px;
+	}
+	.descr_card img{
+		width: 100%;
+		height: 100px;
+		border-radius: 10px 10px 0px 0px;
+	}
+	.descr_card h3,.descr_card p{
+		margin: 5px 0;
+	}
+	
+	.notation li{
+		display: inline-block;
+	
+	}
+	.notation li i{
+		color: #0065FC;
+	}
+	
+	.col_2{
+		width: 25%;
+		background-color: #F2F2F2;
+		border-radius: 25px;
+		padding: 20px;
+	}
+	
+	.col_2 h2{
+		margin-bottom: 10px;
+	}
+	
+	.descr_card2{
+		padding: 4px;
+		background-color: white;
+		border-radius: 10px;
+		width: 90%;
+		height:100px;
+		margin-bottom: 20px;
+		padding: 5px;
+	}
+	.descr_card2 img{
+		width: 40%;
+		height:80px;
+		border-radius: 10px 10px 0px 0px;
+	}
+	.descr_card2 h3,.descr_card p{
+		margin: 5px 0;
+	}
+	
+	footer{
+		background-color: #F2F2F2;
+		margin-top: 30px;
+	}
+	.footer-content{
+		width: 90%;
+		margin: auto;
+		display: flex;
+		align-items: flex-start;
+	}
+	
+	.footer-column{
+		display: flex;
+		flex-direction: column;
+		width: 30%;
+	}
+	
+	.col-container2{
+		width: 100%;
+		margin-top: 30px;
+		display: flex;
+		background-color: aquamarine;
+		padding: 20px;
+	}
+	.col_act_1{
+		width: 50%;
+		background-color: chocolate;
+	}
+	.col_act_2{
+		width: 50%;
+		background-color: darkred;
+	}
+	
+	.descr_card3{
+		padding: 4px;
+		background-color: white;
+		border-radius: 10px;
+		width: 30%;
+		margin-bottom: 20px;
+		padding: 5px;
+	}
+	
+	.descr_card3 img{
+		width: 100%;
+		height: 300px;
+		border-radius: 10px;
+	}
+	
+	.descr_card4{
+		padding: 4px;
+		background-color: white;
+		border-radius: 10px;
+		width: 25%;
+		margin-top: 100px;
+		padding: 5px;
+	}
+	.descr_card4 img{
+		width: 100%;
+		height: 100px;
+		border-radius: 10px;
+	}
