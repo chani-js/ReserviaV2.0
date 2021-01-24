@@ -1,6 +1,6 @@
 body{
 	width: 100%;
-	font-family: 'Raleway', 'sans serif';
+	font-family: 'Raleway', sans-serif;
 	display: block;
 	margin: 3px;
 }
@@ -146,11 +146,12 @@ input::placeholder{
 	margin-top: 30px;	
 }	
 .col_1{
-	width: 60%;
+	width: 65%;
 	margin-right: 40px;
 	background-color: #F2F2F2;
 	border-radius: 25px;
 	padding: 20px;
+	height: 570px;
 }
 .col_1 h2{
 	margin-bottom: 10px;
@@ -183,29 +184,35 @@ input::placeholder{
 	color: #0065FC;
 }	
 .col_2{
-	width: 25%;
+	width: 35%;
 	background-color: #F2F2F2;
 	border-radius: 25px;
 	padding: 20px;
+	height: 570px;
 }
 .col_2 h2{
 	margin-bottom: 10px;
 }
+.col_2 ul{
+	margin-bottom: 10px;
+}
 .descr_card2{
-	padding: 4px;
 	background-color: white;
 	border-radius: 10px;
 	width: 90%;
 	margin-bottom: 20px;
 	padding: 5px;
 	display: flex;
+	height: 150px;
 }
 .disp-text{
 	margin-left: 30px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .descr_card2 img{
 	width: 40%;
-	height:115px;
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
 	object-fit: cover;
