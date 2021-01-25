@@ -196,6 +196,7 @@ input::placeholder {
 	display: flex;
 	align-items: flex-start;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .col_1 {
@@ -312,8 +313,8 @@ footer {
 	width: 30%;
 }
 
-.act_margintop {
-	margin-top: 60px;
+.act_container{
+	margin-top: 30px;
 }
 
 .col-activity {
@@ -334,7 +335,7 @@ footer {
 
 .descr_card3 {
 	background-color: white;
-	border-radius: 10px 10px 0 0;
+	border-radius: 10px;
 	width: 100%;
 	border: 1px solid #F2F2F2;
 	height: 453px;
@@ -442,8 +443,12 @@ footer {
 }
 
 @media screen and (max-device-width: 980px) {
+	.container{
+		width: 100%;
+	}
 	.search-bar {
 		width: 100%;
+		margin-left: 15px;
 	}
 	input {
 		width: 80%;
@@ -464,16 +469,20 @@ footer {
 		font-weight: bold;
 		font-size: 1.5em;
 		margin-top: 20px;
+		margin-left: 15px;
 	}
 	.size_slogan_resp {
 		font-size: 1.1em;
+		margin-left: 15px;
 	}
 	.filtres_resp {
 		color: black;
+		margin-left: 15px;
 	}
 	.filters {
 		display: inline-block;
 		margin-top: 0;
+		margin-left: 15px;
 	}
 	.filters li {
 		margin-left: 0;
@@ -481,6 +490,9 @@ footer {
 	.size_info_resp {
 		width: 93%;
 		font-size: 1.1em;
+	}
+	.info{
+		margin-left: 15px;
 	}
 	.pos_info_resp {
 		position: relative;
@@ -494,6 +506,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
+		margin-top: 30px;
 	}
 	.descr_card2 {
 		width: 100%;
@@ -525,5 +538,8 @@ footer {
 		display: flex;
 		flex-direction: column;
 		margin-left: 10px;
+	}
+	.footer-column{
+		width: 100%;
 	}
 }
