@@ -1,5 +1,4 @@
 body {
-	width: 100%;
 	font-family: 'Raleway', sans-serif;
 	display: block;
 	margin: 0;
@@ -151,6 +150,10 @@ input::placeholder {
 	height: auto;
 }
 
+button:hover{
+	cursor: pointer;
+}
+
 .filters {
 	display: inline-block;
 	margin-top: 30px;
@@ -170,6 +173,7 @@ input::placeholder {
 
 .filters li:hover {
 	transform: scale(1.2);
+	cursor: pointer;
 }
 
 /* modifications des icones pour les filtres */
@@ -298,30 +302,13 @@ input::placeholder {
 	flex-direction: column;
 }
 
-footer {
-	background-color: #F2F2F2;
-	margin-top: 30px;
-}
 
-.footer-content {
-	width: 90%;
-	margin: auto;
-	display: flex;
-	align-items: flex-start;
-}
-
-.footer-column {
-	display: flex;
-	flex-direction: column;
-	width: 30%;
-}
 
 .act_container {
 	margin-top: 30px;
 }
 
 .col-activity {
-	width: 100%;
 	margin-top: 30px;
 	display: flex;
 	justify-content: space-between;
@@ -341,7 +328,6 @@ footer {
 	border-radius: 10px;
 	width: 100%;
 	border: 1px solid #F2F2F2;
-	height: 453px;
 	display: block;
 }
 
@@ -411,6 +397,24 @@ footer {
 	height: 50px;
 }
 
+footer {
+	background-color: #F2F2F2;
+	margin-top: 30px;
+}
+
+.footer-content {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	align-items: flex-start;
+}
+
+.footer-column {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
 /* partie responsive*/
 
 .logo_resp {
@@ -442,7 +446,10 @@ footer {
 	border-bottom: 2px solid #0065FC;
 }
 
-@media screen and (max-device-width: 980px) {
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
 	.container {
 		width: 100%;
 	}
@@ -534,17 +541,14 @@ footer {
 		margin-top: 50px;
 		display: block;
 	}
-
-	.act_container h2{
+	.act_container h2 {
 		margin-left: 15px;
 	}
-	
-	.a_act_resp{
+	.a_act_resp {
 		width: 100%;
 		margin-top: 20px;
 		margin-left: 15px;
 	}
-
 	.footer-content {
 		width: 100%;
 		display: flex;
