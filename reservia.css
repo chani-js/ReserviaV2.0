@@ -165,7 +165,6 @@ input::placeholder {
 	margin-left: 30px;
 	display: inline-block;
 	font-weight: bold;
-	padding-left: 15px;
 	padding-right: 15px;
 }
 
@@ -419,6 +418,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 15px;
 }
 
 .logo_resp img {
@@ -505,6 +505,7 @@ footer {
 		flex-direction: column;
 		width: 100%;
 		margin-top: 30px;
+		padding: 15px;
 	}
 	.descr_card_pop {
 		width: 100%;
@@ -514,6 +515,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 		height: initial;
+		margin-top: 25px;
 	}
 	.descr_card_heb {
 		width: 100%;
