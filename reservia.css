@@ -534,6 +534,17 @@ footer {
 		margin-top: 50px;
 		display: block;
 	}
+
+	.act_container h2{
+		margin-left: 15px;
+	}
+	
+	.a_act_resp{
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 15px;
+	}
+
 	.footer-content {
 		width: 100%;
 		display: flex;
@@ -542,10 +553,5 @@ footer {
 	}
 	.footer-column {
 		width: 100%;
-	}
-	.a_act_resp{
-		width: 100%;
-		margin-top: 20px;
-		margin-left: 15px;
 	}
 }
