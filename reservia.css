@@ -329,6 +329,7 @@ button:hover{
 	width: 100%;
 	border: 1px solid #F2F2F2;
 	display: block;
+	height: 450px;
 }
 
 .descr_card_g img {
