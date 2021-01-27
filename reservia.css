@@ -150,7 +150,7 @@ input::placeholder {
 	height: auto;
 }
 
-button:hover{
+button:hover {
 	cursor: pointer;
 }
 
@@ -302,8 +302,6 @@ button:hover{
 	flex-direction: column;
 }
 
-
-
 .act_container {
 	margin-top: 30px;
 }
@@ -447,10 +445,7 @@ footer {
 	border-bottom: 2px solid #0065FC;
 }
 
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 667px) 
-    and (-webkit-device-pixel-ratio : 2) {
+@media screen and (max-width: 650px) {
 	.container {
 		width: 100%;
 	}
@@ -554,6 +549,119 @@ footer {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+		margin-left: 10px;
+	}
+	.footer-column {
+		width: 100%;
+	}
+}
+@media screen and (min-width: 651px) and (max-width:1030px) {
+
+	body{
+		width: 70%;
+		margin: auto;
+	}
+	.container {
+		width: 100%;
+	}
+	.search-bar {
+		width: 100%;
+		margin-left: 15px;
+	}
+	input {
+		width: 80%;
+	}
+	.btn {
+		display: none;
+	}
+	.btn_resp {
+		display: block;
+	}
+	.entete {
+		display: none;
+	}
+	.entete_resp {
+		display: block;
+	}
+	.slogan {
+		font-weight: bold;
+		font-size: 1.5em;
+		margin-top: 20px;
+		margin-left: 15px;
+	}
+	.size_slogan_resp {
+		font-size: 1.1em;
+		margin-left: 15px;
+	}
+	.filtres_resp {
+		color: black;
+		margin-left: 15px;
+	}
+	.filters {
+		display: inline-block;
+	}
+	.filters li {
+		margin-top: 10px;
+	}
+	.size_info_resp {
+		width: 93%;
+		font-size: 1.1em;
+	}
+	.info {
+		margin-left: 15px;
+	}
+	.pos_info_resp {
+		position: relative;
+		bottom: 20px;
+	}
+	.col_container {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.col_pop {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 30px;
+		padding: 15px;
+	}
+	.descr_card_pop {
+		width: 100%;
+	}
+	.col_heb {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		height: initial;
+		margin-top: 25px;
+	}
+	.descr_card_heb {
+		width: 100%;
+	}
+	.col-activity {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.descr_card_resp {
+		width: 100%;
+		background-color: white;
+		border-radius: 10px;
+		height: 150px;
+		border: 1px solid #F2F2F2;
+		margin-top: 50px;
+		display: block;
+	}
+	.act_container h2 {
+		margin-left: 15px;
+	}
+	.a_act_resp {
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 15px;
+	}
+	.footer-content {
+		width: 100%;
 		margin-left: 10px;
 	}
 	.footer-column {
