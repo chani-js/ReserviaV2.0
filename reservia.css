@@ -166,7 +166,7 @@ button:hover {
 .filters li {
 	border: 1px solid #F2F2F2;
 	border-radius: 20px;
-	margin-left: 30px;
+	/*margin-left: 30px;*/
 	display: inline-block;
 	font-weight: bold;
 	padding-right: 15px;
@@ -280,7 +280,7 @@ button:hover {
 }
 
 .disp-text {
-	margin-left: 30px;
+	/*margin-left: 30px;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -392,7 +392,7 @@ button:hover {
 }
 
 .col_act h3 {
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 	margin-top: 10px;
 	height: 50px;
 }
@@ -448,7 +448,7 @@ footer {
 
 @media screen and (max-width: 650px) {
 	body{
-		width: 95%;
+		width: 90%;
 		margin: auto;
 	}
 	.container {
@@ -492,10 +492,7 @@ footer {
 	.size_info_resp {
 		width: 93%;
 		font-size: 1.1em;
-	}
-	.info {
-	}
-	.pos_info_resp {
+	}info_resp {
 		position: relative;
 		bottom: 20px;
 	}
@@ -538,7 +535,8 @@ footer {
 		display: block;
 	}
 	.act_container {
-		padding: 20px;
+		width: 100%;
+		padding: 15px;
 	}
 	.a_act_resp {
 		width: 100%;
@@ -546,7 +544,6 @@ footer {
 	}
 	footer{
 		width: 100%;
-		padding: 20px;
 	}
 	.footer-content {
 		width: 100%;
@@ -568,7 +565,6 @@ footer {
 	}
 	.search-bar {
 		width: 100%;
-		margin-left: 15px;
 	}
 	input {
 		width: 80%;
@@ -589,15 +585,12 @@ footer {
 		font-weight: bold;
 		font-size: 1.5em;
 		margin-top: 20px;
-		margin-left: 15px;
 	}
 	.size_slogan_resp {
 		font-size: 1.1em;
-		margin-left: 15px;
 	}
 	.filtres_resp {
 		color: black;
-		margin-left: 15px;
 	}
 	.filters {
 		display: inline-block;
@@ -608,9 +601,6 @@ footer {
 	.size_info_resp {
 		width: 93%;
 		font-size: 1.1em;
-	}
-	.info {
-		margin-left: 15px;
 	}
 	.pos_info_resp {
 		position: relative;
@@ -655,19 +645,17 @@ footer {
 		display: block;
 	}
 	.act_container h2 {
-		margin-left: 15px;
+		padding: 15px;
 	}
 	.a_act_resp {
 		width: 100%;
 		margin-top: 20px;
-		margin-left: 15px;
 	}
 	footer{
 		width: 100%;
 	}
 	.footer-content {
 		width: 100%;
-		margin-left: 10px;
 	}
 	.footer-column {
 		width: 100%;
