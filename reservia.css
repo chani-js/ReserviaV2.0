@@ -450,6 +450,9 @@ footer {
 	body {
 		box-sizing: border-box;
 	}
+	.descr_hover:hover{
+		transform: none;
+	}
 	.container {
 		width: 100%;
 	}
