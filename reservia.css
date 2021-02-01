@@ -1,8 +1,10 @@
-body {
+body* {
 	width: 100%;
 	font-family: 'Raleway', sans-serif;
 	display: block;
 	margin: 0;
+	box-sizing: border-box;
+	
 }
 
 ul {
@@ -447,9 +449,7 @@ footer {
 }
 
 @media screen and (max-width: 650px) {
-	body {
-		box-sizing: border-box;
-	}
+	
 	.descr_hover:hover {
 		transform: none;
 	}
