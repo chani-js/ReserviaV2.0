@@ -450,7 +450,7 @@ footer {
 	body {
 		box-sizing: border-box;
 	}
-	.descr_hover:hover{
+	.descr_hover:hover {
 		transform: none;
 	}
 	.container {
@@ -493,8 +493,9 @@ footer {
 	}
 	.size_info_resp {
 		width: 93%;
-		font-size: 1.1em;
-	}info_resp {
+		font-size: 1.2em;
+	}
+	info_resp {
 		position: relative;
 		bottom: 20px;
 	}
@@ -544,7 +545,7 @@ footer {
 		width: 100%;
 		margin-top: 20px;
 	}
-	footer{
+	footer {
 		width: 100%;
 	}
 	.footer-content {
@@ -653,7 +654,7 @@ footer {
 		width: 100%;
 		margin-top: 20px;
 	}
-	footer{
+	footer {
 		width: 100%;
 	}
 	.footer-content {
