@@ -1,13 +1,12 @@
-body *{
-	
+body * {
 	box-sizing: border-box;
 }
+
 body {
 	width: 100%;
 	font-family: 'Raleway', sans-serif;
 	display: block;
 	margin: 0;
-	
 }
 
 ul {
@@ -49,6 +48,7 @@ nav {
 }
 
 .acc:hover {
+	margin: auto;
 	border-top: 5px solid #0065FC;
 	color: #0065FC;
 }
@@ -174,6 +174,7 @@ button:hover {
 	display: inline-block;
 	font-weight: bold;
 	padding-right: 15px;
+	margin-left: 20px;
 }
 
 .filters li:hover {
@@ -217,6 +218,7 @@ button:hover {
 	background-color: #F2F2F2;
 	border-radius: 25px;
 	padding: 20px;
+	height: 600px;
 }
 
 .col_heb h2 {
@@ -261,6 +263,7 @@ button:hover {
 	background-color: #F2F2F2;
 	border-radius: 25px;
 	padding: 20px;
+	height: 600px;
 }
 
 .col_pop h2 {
@@ -292,6 +295,7 @@ button:hover {
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
 	object-fit: cover;
+	margin-right: 10px;
 }
 
 .descr_card_pop h3, .descr_card_pop p {
@@ -448,11 +452,6 @@ footer {
 }
 
 @media screen and (max-width: 650px) {
-	body{
-		width: 95%;
-		margin: auto;
-	}
-	
 	.descr_hover:hover {
 		transform: none;
 	}
@@ -487,6 +486,7 @@ footer {
 	}
 	.filtres_resp {
 		color: black;
+		margin: 15px;
 	}
 	.filters {
 		display: inline-block;
@@ -494,13 +494,12 @@ footer {
 	.filters li {
 		margin-top: 10px;
 	}
-	.size_info_resp {
-		width: 93%;
-		font-size: 1.2em;
+	.info{
+		display: inline-flex;
+		align-content: flex-start;
 	}
-	info_resp {
-		position: relative;
-		bottom: 20px;
+	.size_info_resp {
+		font-size: 1em;
 	}
 	.col_container {
 		display: flex;
@@ -555,6 +554,7 @@ footer {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+		margin-left: 10px;
 	}
 	.footer-column {
 		width: 100%;
