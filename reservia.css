@@ -102,7 +102,7 @@ input::placeholder {
 }
 
 .box_shadow {
-	box-shadow: 8px 8px 12px #aaa;
+	box-shadow: 8px 8px 8px #aaa;
 }
 
 .bold {
@@ -494,7 +494,7 @@ footer {
 	.filters {
 		display: inline-block;
 		margin-top: 0;
-		width: 85%;
+		width: 90%;
 	}
 	.filters li {
 		margin-top: 10px;
@@ -530,6 +530,7 @@ footer {
 	}
 	.descr_card_heb {
 		width: 100%;
+		height: auto;
 	}
 	.col-activity {
 		width: 100%;
