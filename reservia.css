@@ -492,9 +492,10 @@ footer {
 		margin: 15px;
 	}
 	.filters {
-		display: inline-block;
+		display: flex;
+		flex-wrap: wrap;
 		margin-top: 0;
-		width: 90%;
+		width: 85%;
 	}
 	.filters li {
 		margin-top: 10px;
