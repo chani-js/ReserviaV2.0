@@ -480,10 +480,12 @@ footer {
 	.slogan {
 		font-size: 1.5em;
 		margin-top: 20px;
+		margin-left: 15px;
 	}
 	.size_slogan_resp {
 		font-size: 1.1em;
 		color: black;
+		margin-left: 15px;
 	}
 	.filtres_resp {
 		color: black;
@@ -517,6 +519,7 @@ footer {
 	}
 	.descr_card_pop {
 		width: 100%;
+		height: 150px;
 	}
 	.col_heb {
 		width: 100%;
@@ -541,6 +544,9 @@ footer {
 		border: 1px solid #F2F2F2;
 		margin-top: 50px;
 		display: block;
+	}
+	.descr_card_m{
+		height: 150px;
 	}
 
 	
