@@ -478,12 +478,14 @@ footer {
 		display: block;
 	}
 	.slogan {
-		font-weight: bold;
 		font-size: 1.5em;
 		margin-top: 20px;
+		margin-left: 15px;
 	}
 	.size_slogan_resp {
 		font-size: 1.1em;
+		color: black;
+		margin-left: 15px;
 	}
 	.filtres_resp {
 		color: black;
@@ -491,6 +493,8 @@ footer {
 	}
 	.filters {
 		display: inline-block;
+		margin-top: 0;
+		width: 85%;
 	}
 	.filters li {
 		margin-top: 10px;
@@ -540,6 +544,8 @@ footer {
 		margin-top: 50px;
 		display: block;
 	}
+
+	
 	.act_container {
 		width: 100%;
 		padding: 15px;
@@ -651,6 +657,7 @@ footer {
 		margin-top: 50px;
 		display: block;
 	}
+	
 	.act_container h2 {
 		padding: 15px;
 	}
